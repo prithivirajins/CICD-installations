@@ -1,0 +1,2 @@
+manualy create the bucket in S3
+give proper roles and attach to your EC2 instance
