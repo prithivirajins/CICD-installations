@@ -7,6 +7,9 @@
 # Install OpenJDK 17 JRE Headless
 sudo apt install fontconfig openjdk-21-jre
 
+#update the system
+sudo apt update -y
+
 # Download Jenkins GPG key
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
