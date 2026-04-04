@@ -5,7 +5,8 @@
 #!/bin/bash
 
 # Install OpenJDK 17 JRE Headless
-sudo apt install fontconfig openjdk-21-jre
+sudo apt update
+sudo apt install openjdk-17-jdk -y
 
 #update the system
 sudo apt update -y
